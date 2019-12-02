@@ -1,0 +1,31 @@
+/* .hide {
+  display: none;
+  color: red;
+} */
+
+body {
+  background-color: grey;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+
+}
+
+.blue {
+  font-family: 'Bowlby One SC', cursive;
+  color: green;
+}
+h5 {
+  font-family: 'BenchNine', sans-serif;
+  color: white;
+}
+
+button {
+  font-family: 'Anton', sans-serif;
+}
+
+.bothInputs {
+  display: grid;
+}
