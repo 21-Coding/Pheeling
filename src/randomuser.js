@@ -1,7 +1,9 @@
 export class Strain {
-  async getProfile() {
+  async getProfile(nameOfStrain) {
     try {
-      let response = await fetch(`strainapi.evanbusse.com/Pi2XNoO/strains/search/name/${nameOfStrain}`);
+      let response = await fetch(`https://strainapi.evanbusse.com/Pi2XNoO/strains/search/name/${nameOfStrain}`);
+      // let response = await fetch(`https://strainapi.evanbusse.com/Pi2XNoO/strains/search/all`);
+      console.log(response);
       let jsonifiedResponse = await response.json();
       return jsonifiedResponse;
     } catch(error) {
