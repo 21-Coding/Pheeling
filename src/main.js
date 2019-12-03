@@ -20,8 +20,8 @@ $(document).ready(function() {
     function getElements(detail) {
       console.log(detail);
       $('.info').text(`Detail: ${detail[0].desc}`);
-      $('.type').text(`Type: ${detail[0].race}`); 
-
+      $('.type').text(`Type: ${detail[0].race}`);
+      
     }
   });
 });
