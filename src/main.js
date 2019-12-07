@@ -21,32 +21,32 @@ $(document).ready(function() {
       console.log(detail);
 
 // name
-      $('.name').text(`Strain Name: ${detail[0].name}`);
-      $('.name1').text(`Strain Name: ${detail[1].name}`);
-      $('.name2').text(`Strain Name: ${detail[2].name}`);
-      $('.name3').text(`Strain Name: ${detail[3].name}`);
-      $('.name4').text(`Strain Name: ${detail[4].name}`);
-      $('.name5').text(`Strain Name: ${detail[5].name}`);
-      $('.name6').text(`Strain Name: ${detail[6].name}`);
+      $('.name').text(`Strain Name: ${detail.positive}`);
+      $('.name1').text(`Strain Name: ${detail[1].positive}`);
+      $('.name2').text(`Strain Name: ${detail[2].positive}`);
+      $('.name3').text(`Strain Name: ${detail[3].positive}`);
+      $('.name4').text(`Strain Name: ${detail[4].positive}`);
+      $('.name5').text(`Strain Name: ${detail[5].positive}`);
+      $('.name6').text(`Strain Name: ${detail[6].positive}`);
 
 
 
 // descriptions
-      $('.info').text(`Description: ${detail[0].desc}`);
-      $('.info1').text(`Description: ${detail[1].desc}`);
-      $('.info2').text(`Description: ${detail[2].desc}`);
-      $('.info3').text(`Description: ${detail[3].desc}`);
-      $('.info4').text(`Description: ${detail[4].desc}`);
-      $('.info5').text(`Description: ${detail[5].desc}`);
-      $('.info6').text(`Description: ${detail[6].desc}`);
+      $('.info').text(`Description: ${detail.negative}`);
+      $('.info1').text(`Description: ${detail[1].negative}`);
+      $('.info2').text(`Description: ${detail[2].negative}`);
+      $('.info3').text(`Description: ${detail[3].negative}`);
+      $('.info4').text(`Description: ${detail[4].negative}`);
+      $('.info5').text(`Description: ${detail[5].negative}`);
+      $('.info6').text(`Description: ${detail[6].negative}`);
 // types
-      $('.type').text(`Type:  ${detail[0].race}`);
-      $('.type1').text(`Type:  ${detail[1].race}`);
-      $('.type2').text(`Type:  ${detail[2].race}`);
-      $('.type3').text(`Type:  ${detail[3].race}`);
-      $('.type4').text(`Type:  ${detail[4].race}`);
-      $('.type5').text(`Type:  ${detail[5].race}`);
-      $('.type6').text(`Type:  ${detail[6].race}`);
+      $('.type').text(`Type:  ${detail.medical}`);
+      $('.type1').text(`Type:  ${detail[1].medical}`);
+      $('.type2').text(`Type:  ${detail[2].medical}`);
+      $('.type3').text(`Type:  ${detail[3].medical}`);
+      $('.type4').text(`Type:  ${detail[4].medical}`);
+      $('.type5').text(`Type:  ${detail[5].medical}`);
+      $('.type6').text(`Type:  ${detail[6].medical}`);
 
     }
   });
