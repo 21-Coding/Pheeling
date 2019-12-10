@@ -4,26 +4,47 @@
 } */
 
 body {
-  background-color: grey;
+  background-color: black;
   text-align: center;
+  color: white;
 }
 
 h1 {
-  font-family: 'Anton', sans-serif;
+
 
 }
 
-.blue {
-  font-family: 'Bowlby One SC', cursive;
-  color: green;
+.scroll {
+  overflow: scroll;
+  margin-top: 350px;
+  margin-left: 350px;
+  height: 200px;
+  width: 500px;
+}
+.red {
+  font-family: 'Fredericka the Great', cursive;
+  color: red;
+  font-size: 130px;
+}
+
+.red2 {
+  font-family: 'Fredericka the Great', cursive;
+  color: red;
+  font-size: 17px;
+}
+
+.white {
+  font-family: 'Raleway Dots', cursive;
+  color: white;
+  font-size: 100px;
 }
 h5 {
-  font-family: 'BenchNine', sans-serif;
+
   color: white;
 }
 
 button {
-  font-family: 'Anton', sans-serif;
+
 }
 
 .bothInputs {
