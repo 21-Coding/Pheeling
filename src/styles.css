@@ -19,7 +19,7 @@ h1 {
 }
 .scroll {
   overflow: scroll;
-  /* margin-top: 350px; */
+  margin-top: 10px;
   margin-left: 50px;
   height: 200px;
   width: 500px;
